@@ -1,0 +1,7 @@
+<Project>
+
+  <ItemGroup Condition="'$(MSBuildProjectName)' == 'SimpleMediator'">
+    <InternalsVisibleTo Include="SimpleMediator.Tests" />
+  </ItemGroup>
+
+</Project>
